@@ -10,7 +10,6 @@ import burgerBuilderReducer from './store/reducers/burgerBuilder';
 import thunk from 'redux-thunk';
 import orderReducer from './store/reducers/order';
 import authReducer from './store/reducers/auth';
-//const store=createStore(reducer);
 
 const rootReducer=combineReducers({
     burgerBuilder:burgerBuilderReducer,
